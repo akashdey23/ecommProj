@@ -1,8 +1,9 @@
 .hero
 {
     height: 100vh;
-    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    background: linear-gradient(180deg, #203f86, #e1ffea22 60%);
     display: flex;
+    border-radius: 25px 25px 0px 0px ;
 }
 
 .hero-left
@@ -24,7 +25,7 @@
 
 .hero-left p{
     color: #171717;
-    font-size: 100px;
+    font-size: 80px;
     font-weight: 700;
 }
 
@@ -53,4 +54,13 @@
     color: white;
     font-size: 22px;
     font-weight: 500;
+    cursor: pointer;
+}
+
+.hero-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
 }
