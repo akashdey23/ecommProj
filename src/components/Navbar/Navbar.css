@@ -9,6 +9,7 @@
       box-shadow: 0 1px 3px -2px black;
       background: linear-gradient(180deg, #203f86, #8994ae 60%);
       border-radius: 0px 0px 25px 25px ;
+      /* position: fixed; */
 }
 
 .nav-logo

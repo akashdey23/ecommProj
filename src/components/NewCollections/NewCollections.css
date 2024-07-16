@@ -1,4 +1,4 @@
-.popular
+.new-collections
 {
     display: flex;
     flex-direction: column;
@@ -10,20 +10,20 @@
     height: 90vh;
 }
 
-.popular h1{
+.new-collections h1{
     color: #171717;
     font-size: 50px;
     font-weight: 600;
 }
 
-.popular hr{
+.new-collections hr{
     width: 200px;
     height:6px;
     border-radius: 10px;
     background: #252525;
 }
 
-.popular-item
+.new-collections-item
 {
     margin-top: 50px;
     /* margin-left: 10px; */
@@ -32,6 +32,18 @@
     
     
 }
-.popular-item img {
+.new-collections-item img {
+    border-radius: 25px;
+}
+
+.collections{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.collections img
+{
     border-radius: 25px;
 }
