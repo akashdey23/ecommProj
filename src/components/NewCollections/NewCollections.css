@@ -2,12 +2,15 @@
 {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between  ; */
     color: red ;
     align-items: center;
     gap: 10px;
-    
-    height: 90vh;
+    margin-bottom: 100px;
+    /* background: linear-gradient(180deg, #203f86, #e1ffea22 60%);
+    border-radius: 25px 25px 0 0; */
+    /* width: 80%; */
+    /* margin-left: 5px;
+    margin-right: 5px; */
 }
 
 .new-collections h1{
@@ -47,3 +50,4 @@
 {
     border-radius: 25px;
 }
+
